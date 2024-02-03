@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.box
+		{
+			border: 10px white;
+			width: 315px;
+			height: 385px;
+			background-color: black;
+			position: absolute;
+			top: 25%;
+			left: 40%;
+			opacity: 60%;
+			filter: blur(1px);
+		}
+		.box1
+		{
+			width: 100%;
+			height: 8%;
+			background-color: black;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			opacity: 75%;
+		}
+	</style>
+	<title>student login</title>
+</head>
+
+<body style="background-color: black;">
+	<img src="image/lib3.jpg"
+	     style="height: 100%;
+	            width: 100%;
+	            position: absolute;
+	            top: 0%;
+	            left: 0%;
+	            filter: blur(10px);">
+	<div class="box"></div>
+	<div class="box1"></div>
+	<div style="position: absolute;
+	            left: 3%;
+	            top: 10%;
+	            font-size: 30px;
+	            color: skyblue;"><b><u>STUDENT</u></b></div>
+	<h1 style="position: absolute;top: 25%;left: 46%; font-size: 40px;"><u>LOGIN</u></h1>
+	<div>
+		<form action="stu_login.php" method="post">
+			<div>
+				<label for="uid" style="position: absolute;top: 39.5%;left: 42%; font-size: 20px; color: white;"><b>USER ID</b><br></label>
+				<input style="position: relative;left: 42%; position: absolute;top: 43%; font-size: 20px;" type="text" name="uid" id="uid">
+			</div>
+
+			<div>
+				<label for="password" style="position: absolute;top: 51.5%;left: 42%; font-size: 20px; color: white;"><b>PASSWORD</b><br></label>
+				<input style="position: relative;left: 42%; position: absolute;top: 55%; font-size: 20px;" type="password" name="password">
+			</div>
+			<button style="position: absolute;
+			               top: 63%; 
+			               left: 48%;
+			               font-size: 20px; " type="submit" id="login" name="login">
+			   <b>LOGIN</b>
+		    </button>
+			<a href="sign_up.html" style="font-size: 25px; position: absolute;left: 42.5%;top:70%;color: white;"><b>Create a new Account</b></a>
+			<div>
+                 <a style="position: absolute;
+                           top: 1.5%;
+                           left: 3%;
+                           font-size: 25px;
+                           color: yellow;" href="page2.html"><b>HOME</b></a>
+            </div>
+		</form>	
+	</div>
+</body>
+</html>

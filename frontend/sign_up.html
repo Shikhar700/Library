@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        .box
+        {
+          border: 10px white;
+          width: 315px;
+          height: 340px;
+          background-color: black;
+          position: absolute;
+          top: 25%;
+          left: 40%;
+          opacity: 60%;
+          filter: blur(1px);
+        }
+        .box1
+        {
+          width: 100%;
+          height: 7%;
+          background-color: black;
+          position: absolute;
+          top: 0%;
+          left: 0%;
+        }
+    </style>
+    <title>Sign up Page</title>
+  </head>
+  <body style="background-color: black;">
+
+    <img src="image/lib3.jpg"
+         style="height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                filter: blur(10px);">
+    <div class="box1"></div>
+    <div class="box"></div>
+    <div style="position: absolute;
+              left: 3%;
+              top: 10%;
+              font-size: 30px;
+              color: skyblue;"><b><u>STUDENT</u></b></div>
+    <h1 style="position: absolute;left: 42%;top: 25%;"><u><b>NEW ACCOUNT<b></u></h1>
+
+    <form action="sign_up.php" method="post">
+            	
+      <div class="form-group">
+          <label style="position: absolute;top: 38.5%;left: 42.2%; font-size: 20px;color: white;" for="id"><b>NEW USER ID</b></label>
+          <input placeholder="Enter Your USN" style="position: absolute;top: 42%;left: 42%; font-size: 20px;"
+                 type="text" class="form-control" id="id" name="id" required>
+      </div>
+
+      <div class="form-group">
+          <label style="position: absolute;top: 51.5%;left: 42.2%; font-size: 20px;color: white;" for="password"><b>PASSSWORD</b></label>
+          <input style="position: absolute;top: 55%;left: 42%; font-size: 20px;"
+                 type="text" class="form-control" id="password" name="password" required>
+      </div>
+      <button style="position: absolute;
+                     top: 63%;
+                     left: 44.5%; 
+                     font-size: 17px;" type="submit">
+          <b>CREATE ACCOUNT</b>
+      </button>     
+      <a style="position: absolute;
+                top: 1.5%;
+                left: 12%;
+                color: yellow;
+                font-size: 25px;" href="stu_login.html">GO BACK</a>&emsp;
+      <a style="position: absolute;
+                top: 1.5%;
+                left: 3%;
+                color: yellow;
+                font-size: 25px;" href="page2.html">HOME</a>
+
+    </form>
+  </body>
+</html>

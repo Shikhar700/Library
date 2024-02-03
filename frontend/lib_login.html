@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.box
+		{
+			border: 10px white;
+			width: 315px;
+			height: 340px;
+			background-color: black;
+			position: absolute;
+			top: 25%;
+			left: 40%;
+			opacity: 60%;
+			filter: blur(1px);
+		}
+		.box1
+		{
+			width: 100%;
+			height: 8%;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			background-color: black;
+			opacity: 75%;
+		}
+	</style>
+	<title>librarian login</title>
+</head>
+
+<body style="background-color: black;">
+	<img src="image/lib3.jpg"
+	     style="width: 100%;
+	            height: 100%;
+	            position: absolute;
+	            top: 0%;
+	            left: 0%;
+	            filter: blur(10px);">
+	<div class="box"></div>
+	<div class="box1"></div>
+	<div style="position: absolute;
+	            left: 3%;
+	            top: 10%;
+	            font-size: 30px;
+	            color: skyblue;"><b><u>LIBRARIAN</u></b></div>
+	<center>
+	  <h1 style="position: absolute;top: 24%;left: 46%; font-size: 40px;"><u>LOGIN</u></h1>
+	</center>
+	<div>
+		<form action="lib_login.php" method="post">
+			<div>
+				<label for="log" style="position: absolute;top: 39%;left: 42.3%; font-size: 20px;color: white;"><b>USER ID</b><br></label>
+				<input style="position: relative;left: 42%; position: absolute;top: 43%; font-size: 20px;" type="number" name="log" id="log">
+			</div>
+
+			<div>
+				<label for="password" style="position: absolute;top: 51%;left: 42.3%; font-size: 20px;color: white;"><b>PASSWORD</b><br></label>
+				<input style="position: relative;left: 42%; position: absolute;top: 55%; font-size: 20px;" type="password" name="password">
+			</div>
+
+			<button style="position: absolute;
+			               top: 63%; 
+			               left: 48%;
+			               font-size: 20px; " type="submit" value="LOGIN" id="login" name="login"><b>LOGIN</b></button>
+
+		    <a style="position: absolute;
+		              top: 1.5%;
+		              left: 3%;
+		              font-size: 25px;
+		              color: yellow;" href="page2.html"><b>HOME</b></a>
+
+		</form>	
+	</div>
+</body>
+</html>
